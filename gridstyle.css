@@ -1,0 +1,27 @@
+
+.body{
+    background-color: limegreen;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: grid;
+    background-color: lime;
+}
+.item{
+    padding: 10px;
+    border: 1px solid black;
+}
+#item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#item3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
